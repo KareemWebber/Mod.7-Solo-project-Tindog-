@@ -1,0 +1,79 @@
+body{
+    position: relative;
+    margin-top: 1em;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.625em 2.5em;
+}
+
+#logo {
+    width: 75px;
+    height: 40px;
+}
+
+#icons{
+    width: 40px;
+    height: 40px;
+}
+
+#like-stamp, #dislike-stamp {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 40px;
+    top: 121.96px;
+    transform: rotate(-30deg);
+    display: none;
+}
+
+#tin-dog {
+    margin: 1em auto;
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+#dog-name {
+    margin-top: -3.75em;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    text-align: start;
+}
+
+#phrase {
+    margin-top: -0.5em;
+    margin-bottom: 6em;
+    margin-left: 3.75em;
+    text-align: start;
+}
+
+#dog-name, #phrase {
+    color: white;
+}
+
+#like-btn, #dislike-btn {
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1.5px 1.5px 1.5px 1px goldenrod;
+    border-radius: 50%;
+    margin-top: -1.5em;
+    margin-left: 1em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+#like-btn:hover {
+    background-color: #E6FAE3;
+}
+
+#dislike-btn:hover {
+    background-color: #FFEFEF
+}
